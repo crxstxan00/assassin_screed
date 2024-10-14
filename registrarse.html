@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Assassin's Creed</title>
+	</head>
+	<body>
+		<header>
+			<div class="carrito">
+				<a class="carrito" href="https://www.game.es/?login&page=comprar#">Carrito</a>
+				<a class="carrito" href="registrarse.html">Crear cuenta</a>
+			</div>
+			<h1>Assassin's Creed</h1>
+			<form method="post" id="login">
+				<label class="userinicio">Usuario:</label>
+				<input class="páginicio" type="text" name="nickname" maxlength="16" required="required" placeholder="Nombre">
+				<label class="userinicio">Password:</label>
+				<input class="páginicio" type="password" name="contrainicio" maxlength="14" required="required" placeholder="Contraseña">
+				<input type="submit" name="iniciarses" class="submit" value="Login">
+			</form>
+		</header>
+		<nav class="listas">
+			<ul class="menu">
+				<li><a href="assassinscreed.html">Inicio</a></li>
+				<li><a href="personajes.html">Personajes</a></li>
+				<li><a href="https://www.game.es/">Tienda</a></li>
+				<li><a href="registrarse.html">Registrarse</a></li>
+				<li><a href="https://assassinscreed.ubisoft.com/game/es-es/home/">Contacto</a></li>
+			</ul>
+		</nav>	
+		<h2>Unete a la hermandad</h2>
+		<div class="registropag">
+			<div class="divregistro">
+			<form class="formularioregistro">
+				<label class="labelregistro">Nombre:</label>
+				<input class="inputregistro" type="text" name="nombre" maxlength="12" required="required" minlength="3">
+				<label class="labelregistro">Apellidos:</label>
+				<input class="inputregistro" type="text" name="apellidos" maxlength="16" minlength="3" required="required">
+				<label class="labelregistro">Nickname</label>
+				<input class="inputregistro" type="text" name="nombre de usuario" minlength="4" maxlength="12" required="required">
+				<label class="labelregistro">Contraseña:</label>
+				<input class="inputregistro" type="password" name="contraseña1" required="required" maxlength="14" minlength="6">
+				<label class="labelregistro">Repetir Contraseña:</label>
+				<input class="inputregistro" type="password" name="contraseña2" required="required" maxlength="14" minlength="6">
+				<label class="labelregistro">Fecha de Nacimiento:</label>
+				<input class="inputregistro" type="date" name="edad">
+				<label class="labelregistro">Sexo:</label>
+				<select class="inputregistro">
+					<option value="hombre">Hombre</option>
+					<option value="mujer">Mujer</option>
+					<option value="otro">Otro</option>
+					<option value="prefiero no decirlo">prefiero no decirlo</option>
+				</select>
+				<label class="labelregistro">Teléfono móvil</label>
+				<input class="inputregistro" type="tel" name="n.móvil" required="required" mminlength="9" maxlength="11">
+				<label class="labelregistro">Correo eletrónico:</label>
+				<input class="inputregistro" type="email" name="correo" maxlength="30" minlength="10">
+				<input class="submit" type="submit" name="enviar" value="Acabar">
+			</form>
+			</div>
+			<div class="divimgregistro">
+				<figure>
+					<img class="imgregistro" src="img/assassinscreedregistro.jpg">
+				</figure>
+			</div>
+		</div>
+	<footer>
+			<figure>
+				<img class="imgfooter" src="img/footer.png">
+			</figure>
+		</footer>	
+	</body>
+</html> 
