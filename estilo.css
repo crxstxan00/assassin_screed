@@ -1,17 +1,17 @@
 /*---------------------------tipo letras--------------------------*/
 @font-face{
 	font-family: assassin;
-	src: url('../letra/assassin.ttf');
+	src: url('assassin.ttf');
 }
 
 @font-face{
 	font-family: arabe;
-	src: url('../letra/titulo.ttf');
+	src: url('titulo.ttf');
 }
 
 @font-face{
 	font-family: queen;
-	src: url('../letra/personajes.ttf');
+	src: url('personajes.ttf');
 }
 
 *{
@@ -24,7 +24,7 @@
 /*---------------------------inicio------------------------------*/
 
 html{
-	background-image: url('../img/imghtml.jpg');
+	background-image: url('imghtml.jpg');
 	background-size: 100% 100%;
 	background-attachment: fixed;
 }
@@ -32,7 +32,7 @@ html{
 body{
 	width: 90%;
 	margin: 0px auto 20px auto;	
-	background-image: url(../img/body.jpg); 
+	background-image: url('body.jpg'); 
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: 100% 100%;
@@ -41,7 +41,7 @@ body{
 /*---------------------------header--------------------------------*/
 
 header{
-	background-image: url(../img/header.jpg);
+	background-image: url('header.jpg');
 	background-size: 100%;
 	background-position: 0% 30%; 
 	background-image: no-repeat;
